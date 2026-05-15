@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Oncology Hiddenness",
+  "slug": "ctgov-oncology-hiddenness",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How much registered oncology evidence still goes quiet on ClinicalTrials.gov once older closed interventional studies are isolated? We analysed 42,344 eligible older oncology studies from the March 29, 2026 full-registry snapshot, making oncology the largest named disease family in the portfolio. The project compares two-year no-results rates, ghost-protocol rates, sponsor-class patterns, phase gradients, and the biggest named sponsors by unresolved stock. Across older oncology studies, 67.0 percent lacked posted results and 42.5 percent showed neither results nor a linked publication. Phase EARLY_ 1 was especially quiet at 87.9 percent on the no-results metric, while National Cancer Institute (NCI) carried the largest sponsor stock at 909 older missing-results studies. Oncology hiddenness is therefore about scale as much as silence, with very large stock spread across public, academic, network, and industry sponsors. That matters for cancer policy, treatment evaluation, and evidence review. These measures describe registry-visible evidence absence rather than adjudicated legal non-compliance within this public oncology frame.",
+  "word_count": 156,
+  "sentence_count": 8,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much registered oncology evidence still goes quiet on ClinicalTrials.gov once older closed interventional studies are isolated?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 42,344 eligible older oncology studies from the March 29, 2026 full-registry snapshot, making oncology the largest named disease family in the portfolio."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, sponsor-class patterns, phase gradients, and the biggest named sponsors by unresolved stock."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across older oncology studies, 67.0 percent lacked posted results and 42.5 percent showed neither results nor a linked publication."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Phase EARLY_ 1 was especially quiet at 87.9 percent on the no-results metric, while National Cancer Institute (NCI) carried the largest sponsor stock at 909 older missing-results studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Oncology hiddenness is therefore about scale as much as silence, with very large stock spread across public, academic, network, and industry sponsors. That matters for cancer policy, treatment evaluation, and evidence review."
+    },
+    {
+      "role": "Boundary",
+      "text": "These measures describe registry-visible evidence absence rather than adjudicated legal non-compliance within this public oncology frame."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Oncology Hiddenness dashboard",
+    "data": "42,344 eligible older oncology studies in the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-oncology-hiddenness",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate within the oncology family among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": false,
+        "detail": "Found 8 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}

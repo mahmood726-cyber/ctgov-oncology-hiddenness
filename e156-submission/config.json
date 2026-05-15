@@ -3,7 +3,7 @@
   "slug": "ctgov-oncology-hiddenness",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-oncology-hiddenness",
+  "path": "C:\\Projects\\ctgov-analyses/ctgov-oncology-hiddenness",
   "type": "methods",
   "primary_estimand": "2-year no-results rate within the oncology family among eligible older CT.gov studies",
   "summary": "A standalone E156 project on oncology trial hiddenness across sponsor classes, phases, and leading sponsors.",
@@ -48,10 +48,11 @@
     "validation": "FULL REGISTRY RUN"
   },
   "affiliation": "Tahir Heart Institute",
-  "email": "author@example.com",
+  "email": "mahmood.ahmad2@nhs.net",
   "references": [
     "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
     "PubMed E-utilities. National Center for Biotechnology Information. Accessed March 29, 2026.",
     "Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement. BMJ. 2021;372:n71."
-  ]
+  ],
+  "submitted": false
 }
